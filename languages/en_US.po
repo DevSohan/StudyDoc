@@ -1,0 +1,1241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StudyDoc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-20 10:16+0000\n"
+"PO-Revision-Date: 2021-04-29 14:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1\n"
+"X-Domain: study-doc"
+
+#: woocommerce/myaccount/inc/admin/dashboard.php:22
+#, php-format
+msgid ""
+" Von Ihrem Konto-Dashboard aus können Sie die Daten aller <a href=\"%1$s\">"
+"Studenten</a> und <a href=\"%2$s\">Universitäten</a> verwalten."
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:95
+msgid "90-tägiges Pflegepraktikum"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:344
+msgid "Ab Datum"
+msgstr "From"
+
+#: woocommerce/myaccount/inc/student/documents.php:48
+msgid "Abitur-Zeugnis"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:350
+msgid "Abschluss"
+msgstr "Type of Degree"
+
+#: woocommerce/myaccount/inc/admin/universities.php:50
+msgid "ACTION"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mailing.php:159
+msgid "Action"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/profile.php:98
+msgid "Admin Details:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/profile.php:49
+msgid "Admin Profil"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:52
+msgid "Aktion"
+msgstr "Action"
+
+#: woocommerce/myaccount/inc/admin/profile.php:136
+#: woocommerce/myaccount/inc/admin/universities.php:379
+msgid "Aktualisieren"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:29
+msgid "Aktualisierung der Benutzerinformationen, bitte warten..."
+msgstr "User information updating, please wait..."
+
+#: woocommerce/myaccount/inc/admin/mailing.php:85
+msgid "Alles auswählen"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:126
+msgid "Allgemeinmedizin"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mailing.php:108
+msgid "An:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:84
+msgid "Anatomie - Embryologie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:80
+msgid "Anatomie - Makroskopische Anatomie (Bewegungsapparat)"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:81
+msgid "Anatomie - Makroskopische Anatomie (innere Organe)"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:82
+msgid "Anatomie - Makroskopische Anatomie (Nervensystem)"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:83
+msgid "Anatomie - Mikroskopische Anatomie (Histologie)"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:242
+#: woocommerce/myaccount/inc/admin/students.php:183
+msgid "Anrede"
+msgstr "Title"
+
+#: woocommerce/myaccount/inc/admin/dashboard.php:77
+#: woocommerce/myaccount/inc/admin/dashboard.php:89
+#: woocommerce/myaccount/inc/admin/dashboard.php:101
+#: woocommerce/myaccount/inc/admin/dashboard.php:121
+msgid "Anzahl der"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:127
+msgid "Anästhesiologie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:128
+msgid "Arbeitsmedizin und Sozialmedizin"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:463
+msgid "Archiv konnte nicht geöffnet werden"
+msgstr "Archive could not be opened"
+
+#: includes/admin/student_CRUD.php:326
+msgid "Art der HZB"
+msgstr "Type of  Secondary School Diploma"
+
+#: woocommerce/myaccount/inc/student/documents.php:129
+msgid "Augenheilkunde"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:381
+msgid "Ausgewähltes Jahr"
+msgstr "Selected Year"
+
+#: includes/admin/student_CRUD.php:384
+msgid "Ausgewähltes Semester"
+msgstr "Selected Semester"
+
+#: includes/admin/student_CRUD.php:387
+msgid "Ausgewähltes Universität"
+msgstr "Selected Universities"
+
+#: woocommerce/myaccount/inc/student/application.php:41
+msgid "Auswahl der Universität"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/dashboard.php:150
+msgid "Auswahl der Universitäten ist abgeschlossen."
+msgstr ""
+
+#: includes/admin/update-status.php:49
+msgid "Beschreibung Aktualisiert"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/profile.php:87
+msgid "Beschreibung:"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:393
+msgid "Bestellnummer"
+msgstr "Order No."
+
+#: woocommerce/myaccount/inc/student/documents.php:214
+#: woocommerce/myaccount/inc/student/documents.php:229
+msgid "Betrachten"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mailing.php:112
+msgid "Betreff:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:26
+msgid "Bewerber"
+msgstr "Applicants"
+
+#: includes/admin/student_CRUD.php:148
+msgid "Bewerbungsprofi"
+msgstr "Bewerbungsprofi"
+
+#: woocommerce/myaccount/inc/student/documents.php:157
+msgid "Bildgebende Verfahren, Strahlenbehandlung, Strahlenschutz"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:86
+msgid "Biochemie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:89
+msgid "Biologie"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:347
+msgid "Bis Datum"
+msgstr "To"
+
+#: woocommerce/myaccount/inc/student/application.php:51
+msgid "Bitte wählen Sie zuerst ein Paket aus!"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/application.php:130
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/dashboard.php:78
+msgid "Change"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:87
+msgid "Chemie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:130
+msgid "Chirurgie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:135
+#: woocommerce/myaccount/inc/admin/universities.php:271
+msgid "Code Name"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/application.php:131
+msgid "Confirm"
+msgstr ""
+
+#: includes/admin/update-status.php:35
+msgid "Could Not Verify POST Values."
+msgstr ""
+
+#: includes/admin/student_CRUD.php:89
+msgid "Das Anlegen eines neuen Studenten ist fehlgeschlagen:"
+msgstr "New Student creating attempt is failed:"
+
+#: woocommerce/myaccount/inc/admin/students.php:377
+#: woocommerce/myaccount/inc/student/dashboard.php:204
+msgid "Datei an die Universität gesendet"
+msgstr "File sent to the universities"
+
+#: woocommerce/myaccount/inc/admin/profile.php:169
+#: woocommerce/myaccount/inc/student/dashboard.php:253
+#: woocommerce/myaccount/inc/student/documents.php:42
+#: woocommerce/myaccount/inc/student/documents.php:75
+#: woocommerce/myaccount/inc/student/documents.php:121
+msgid "Datei auswählen"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:375
+#: woocommerce/myaccount/inc/student/dashboard.php:194
+msgid "Datei ist in Bearbeitung"
+msgstr "File is being processed"
+
+#: woocommerce/myaccount/inc/admin/mailing.php:117
+msgid "Dateien anhängen:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mailing.php:158
+msgid "Datum & Uhrzeit"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:329
+msgid "Datum des Erwerbs der HZB"
+msgstr "Date of Secondary School Graduation "
+
+#: woocommerce/myaccount/inc/student/documents.php:131
+msgid "Dermatologie, Venerologie"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:153
+msgid "Die E-Mail konnte nicht gesendet werden."
+msgstr "The email could not be sent."
+
+#: woocommerce/myaccount/inc/admin/universities.php:407
+#: woocommerce/myaccount/inc/admin/universities.php:434
+msgid "Diese Aktion kann nicht rückgängig gemacht werden."
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:407
+#: woocommerce/myaccount/inc/admin/students.php:434
+msgid "Diese Ausführung kann nicht Rückgängig gemacht werden."
+msgstr "This execution cannot be undone."
+
+#: woocommerce/myaccount/inc/student/documents.php:183
+msgid "Documenten"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:35
+msgid "Dokument hochladen"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:136
+#: woocommerce/myaccount/inc/student/documents.php:14
+msgid "Dokumente"
+msgstr "Documents"
+
+#: includes/admin/student_CRUD.php:27 includes/admin/student_CRUD.php:418
+msgid "Download"
+msgstr "Download"
+
+#: includes/admin/student_CRUD.php:341
+msgid "Durchschnittsnote"
+msgstr "Average Grade"
+
+#: woocommerce/myaccount/inc/admin/students.php:241
+#: woocommerce/myaccount/inc/admin/students.php:345
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: includes/admin/student_CRUD.php:302
+msgid "E-Mail Optional"
+msgstr "Email (Optional)"
+
+#: includes/admin/student_CRUD.php:299
+#: woocommerce/myaccount/inc/admin/students.php:47
+msgid "E-Mail-Adresse"
+msgstr "Email"
+
+#: woocommerce/myaccount/inc/admin/mailing.php:39
+msgid "E-Mails"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mail_template.php:14
+msgid "E-Mails Vorlagen"
+msgstr ""
+
+#: includes/admin/university_CRUD.php:29
+msgid "Editieren der Universität, bitte warten..."
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:93
+msgid "Einführung in die Klinische Medizin"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:376
+msgid "Einige Dokumente fehlen"
+msgstr "Some documents are missing"
+
+#: woocommerce/myaccount/inc/student/dashboard.php:199
+msgid "einige Dokumente fehlen"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:39
+msgid "Einloggen"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:212
+#: woocommerce/myaccount/inc/admin/universities.php:227
+#: woocommerce/myaccount/inc/admin/universities.php:349
+#: woocommerce/myaccount/inc/admin/universities.php:364
+msgid "Einstiegssemester für Humanmedizin im Sommersemester"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:220
+#: woocommerce/myaccount/inc/admin/universities.php:235
+#: woocommerce/myaccount/inc/admin/universities.php:357
+#: woocommerce/myaccount/inc/admin/universities.php:372
+msgid "Einstiegssemester für Tiermedizin im Sommersemester"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:216
+#: woocommerce/myaccount/inc/admin/universities.php:231
+#: woocommerce/myaccount/inc/admin/universities.php:353
+#: woocommerce/myaccount/inc/admin/universities.php:368
+msgid "Einstiegssemester für Zahnmedizin im Sommersemester"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mailing.php:58
+msgid "Email"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/dashboard.php:97
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:147
+msgid "Epidemiologie, medizinische Biometrie und medizinische Informatik"
+msgstr ""
+
+#: includes/admin/update-status.php:51
+msgid "Erfolglos"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:202 includes/admin/university_CRUD.php:158
+msgid "Erfolgreich aktualisiert!"
+msgstr "Updated successfully!"
+
+#: woocommerce/myaccount/inc/student/dashboard.php:134
+msgid "Erfolgreich das Paket gekauft."
+msgstr ""
+
+#: includes/admin/student_CRUD.php:528 includes/admin/university_CRUD.php:183
+msgid "Erfolgreich gelöscht!"
+msgstr "Successfully deleted!"
+
+#: includes/admin/student_CRUD.php:159 includes/admin/university_CRUD.php:109
+msgid "Erfolgreich hinzugefügt!"
+msgstr "Successfully added!"
+
+#: woocommerce/myaccount/inc/student/dashboard.php:167
+msgid "Erforderliche Dokumente hochgeladen."
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:192
+msgid "Es wird keine Datei angezeigt."
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:223
+msgid "Es wird keine Klinik Datei angezeigt."
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:208
+msgid "Es wird keine Vorklinik Datei angezeigt."
+msgstr ""
+
+#: includes/admin/student_CRUD.php:491
+msgid "Etwas ist schief gelaufen, bitte versuchen Sie es erneut."
+msgstr "Something went wrong, please try again."
+
+#: includes/admin/student_CRUD.php:356
+#: woocommerce/myaccount/inc/admin/students.php:48
+msgid "Fach"
+msgstr "Subject"
+
+#: includes/admin/student_CRUD.php:359
+msgid "Fachsemester"
+msgstr "Semester"
+
+#: includes/admin/student_CRUD.php:204 includes/admin/student_CRUD.php:530
+#: includes/admin/university_CRUD.php:111
+#: includes/admin/university_CRUD.php:160
+#: includes/admin/university_CRUD.php:185
+msgid "Fehlgeschlagen!"
+msgstr "Failed!"
+
+#: includes/style-script-enqueue.php:48
+msgid "Filter..."
+msgstr "Filter..."
+
+#: includes/style-script-enqueue.php:47
+msgid "Filtern nach"
+msgstr "Filter By"
+
+#: woocommerce/myaccount/inc/student/dashboard.php:183
+msgid "Fortschritt Status"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:371
+msgid "Fortschrittsbericht"
+msgstr "Progress Report"
+
+#: woocommerce/myaccount/inc/admin/students.php:187
+msgid "Frau"
+msgstr "Mrs"
+
+#: woocommerce/myaccount/inc/student/documents.php:132
+msgid "Frauenheilkunde, Geburtshilfe"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/dashboard.php:88
+msgid "From:"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:140
+msgid "From: Bewerbungsprofi <info@bewerbungsprofi.de>"
+msgstr "From: Bewerbungsprofi <info@bewerbungsprofi.de>"
+
+#: includes/admin/student_CRUD.php:275
+#: woocommerce/myaccount/inc/admin/students.php:250
+#: woocommerce/myaccount/inc/admin/students.php:352
+msgid "Geburtsdatum"
+msgstr "Date of Birth"
+
+#: includes/admin/student_CRUD.php:281
+msgid "Geburtsland"
+msgstr "Country of Birth"
+
+#: includes/admin/student_CRUD.php:278
+#: woocommerce/myaccount/inc/admin/students.php:254
+#: woocommerce/myaccount/inc/admin/students.php:356
+msgid "Geburtsort"
+msgstr "Place of Birth"
+
+#: woocommerce/myaccount/inc/student/documents.php:148
+msgid "Geschichte, Theorie, Ethik der Medizin"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:272
+#: woocommerce/myaccount/inc/admin/students.php:258
+#: woocommerce/myaccount/inc/admin/students.php:360
+msgid "Geschlecht"
+msgstr "Gender"
+
+#: woocommerce/myaccount/inc/admin/mailing.php:152
+msgid "Gesendete E-Mail:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:149
+msgid "Gesundheitsökonomie, Gesundheitssystem, Öffentliches Gesundheitswesen"
+msgstr ""
+
+#. 1: user display name 2: logout url
+#: woocommerce/myaccount/inc/admin/dashboard.php:16
+#, php-format
+msgid "Hallo %1$s"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:133
+msgid "Hals-Nasen-Ohrenheilkunde"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/dashboard.php:116
+msgid "HAMBURG WEATHER"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:308
+#: woocommerce/myaccount/inc/admin/students.php:237
+#: woocommerce/myaccount/inc/admin/students.php:341
+msgid "Handynummer"
+msgstr "Mobile"
+
+#: woocommerce/myaccount/inc/admin/students.php:186
+msgid "Herr"
+msgstr "Mr"
+
+#: woocommerce/myaccount/inc/admin/mailing.php:84
+#: woocommerce/myaccount/inc/admin/mail_template.php:87
+#: woocommerce/myaccount/inc/admin/universities.php:241
+msgid "Hinzufügen"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:47
+msgid "HM"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/dashboard.php:259
+#: woocommerce/myaccount/inc/student/documents.php:52
+#: woocommerce/myaccount/inc/student/documents.php:165
+msgid "Hochladen"
+msgstr ""
+
+#: includes/admin/update-status.php:34
+msgid "HTTP/1.1 400 Empty POST Values"
+msgstr ""
+
+#. URI of the theme
+msgid "http://medi-rep.de"
+msgstr "http://medi-rep.de"
+
+#. Author URI of the theme
+msgid "http://medi.rep.de"
+msgstr "http://medi.rep.de"
+
+#: woocommerce/myaccount/inc/student/documents.php:134
+msgid "Humangenetik"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:185
+#: woocommerce/myaccount/inc/student/application.php:21
+msgid "Humanmedizin"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:135
+msgid "Hygiene, Mikrobiologie, Virologie"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:142
+msgid "Ihr Konto wurde vom Bewerbungsprofi Team gemäß Ihrer Anfrage erstellt"
+msgstr ""
+"Your account has been created by the application team based on your request."
+
+#: woocommerce/myaccount/inc/admin/profile.php:133
+msgid "Ihre Beschreibung aktualisieren:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:150
+msgid "Infektiologie, Immunologie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:136
+msgid "Innere Medizin"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:188
+#: woocommerce/myaccount/inc/admin/universities.php:196
+#: woocommerce/myaccount/inc/admin/universities.php:204
+#: woocommerce/myaccount/inc/admin/universities.php:326
+#: woocommerce/myaccount/inc/admin/universities.php:334
+#: woocommerce/myaccount/inc/admin/universities.php:342
+msgid "Ja"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:137
+msgid "Kinderheilkunde"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:114
+msgid "Klinik (nach ÄAppO) Dokumente hochladen"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:220
+msgid "Klinik Documenten"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:151
+msgid "Klinisch-pathologische Konferenz"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:138
+msgid "Klinische Chemie und Laboratoriumsdiagnostik"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:155
+msgid "Klinische Pharmakologie/Pharmakotherapie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:152
+msgid "Klinische Umweltmedizin"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:133
+#: woocommerce/myaccount/inc/student/contact.php:20
+msgid "Kontakt"
+msgstr "Contact"
+
+#: includes/admin/student_CRUD.php:257
+#: woocommerce/myaccount/inc/admin/students.php:217
+#: woocommerce/myaccount/inc/admin/students.php:322
+#: woocommerce/myaccount/inc/admin/universities.php:165
+#: woocommerce/myaccount/inc/admin/universities.php:301
+msgid "Land"
+msgstr "Country"
+
+#: includes/admin/student_CRUD.php:335
+msgid "Land des Erwerbs der HZB im Ausland"
+msgstr "Country of Secondary School Degree if Abroad"
+
+#: includes/admin/student_CRUD.php:362
+msgid "Landesprüfungsamt"
+msgstr "State Examination Office Report"
+
+#: woocommerce/myaccount/inc/student/documents.php:47
+msgid "Leistungsbescheinigung über Studienverlauf"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:49
+msgid "LPA"
+msgstr "LPA"
+
+#: woocommerce/myaccount/inc/admin/students.php:31
+#: woocommerce/myaccount/inc/admin/universities.php:28
+#: woocommerce/myaccount/inc/admin/universities.php:410
+#: woocommerce/myaccount/inc/admin/universities.php:437
+msgid "Löschen"
+msgstr "Clear"
+
+#: includes/admin/student_CRUD.php:31
+msgid "Löschen der Benutzerinformationen, bitte warten..."
+msgstr "Deleting user information, please wait ..."
+
+#: includes/admin/university_CRUD.php:31
+msgid "Löschen von Universitäten, bitte warten..."
+msgstr ""
+
+#: includes/admin/student_CRUD.php:30
+msgid "Löschen, bitte warten..."
+msgstr "Deleting, please wait ..."
+
+#: includes/admin/university_CRUD.php:30
+msgid "Löschung der Universität, bitte warten..."
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:90
+msgid "Med. Psychologie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:91
+msgid "Med. Soziologie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:92
+msgid "Med. Terminologie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:153
+msgid "Medizin des Alterns und des alten Menschen"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:147
+msgid "Mit freundlichen Grüßen"
+msgstr "With best regards"
+
+#. Author of the theme
+msgid "Mohammad Sohanur Rahman, Singh Mali, Abdur Rahman"
+msgstr "Mohammad Sohanur Rahman, Singh Mali, Abdur Rahman"
+
+#: woocommerce/myaccount/inc/admin/students.php:261
+#: woocommerce/myaccount/inc/admin/students.php:363
+msgid "Männlich"
+msgstr "Male"
+
+#: woocommerce/myaccount/inc/admin/dashboard.php:102
+msgid "Männliche und weibliche Studenten"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:248
+#: woocommerce/myaccount/inc/admin/students.php:195
+#: woocommerce/myaccount/inc/admin/students.php:302
+msgid "Nachname"
+msgstr "Surname"
+
+#: woocommerce/myaccount/inc/admin/mail_template.php:138
+msgid "Nachricht"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mailing.php:142
+#: woocommerce/myaccount/inc/admin/mail_template.php:83
+msgid "Nachricht:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mailing.php:57
+#: woocommerce/myaccount/inc/admin/students.php:46
+#: woocommerce/myaccount/inc/admin/universities.php:131
+#: woocommerce/myaccount/inc/admin/universities.php:132
+#: woocommerce/myaccount/inc/admin/universities.php:267
+#: woocommerce/myaccount/inc/admin/universities.php:268
+msgid "Name"
+msgstr "Name"
+
+#: includes/admin/student_CRUD.php:338
+msgid "Name der letzten Schule"
+msgstr "Name of the last school"
+
+#: woocommerce/myaccount/inc/student/my-orders.php:35
+msgid "Name:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mail_template.php:36
+#: woocommerce/myaccount/inc/admin/mail_template.php:130
+msgid "Namen"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mail_template.php:75
+#: woocommerce/myaccount/inc/admin/mail_template.php:106
+msgid "Namen:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:189
+#: woocommerce/myaccount/inc/admin/universities.php:197
+#: woocommerce/myaccount/inc/admin/universities.php:205
+#: woocommerce/myaccount/inc/admin/universities.php:327
+#: woocommerce/myaccount/inc/admin/universities.php:335
+#: woocommerce/myaccount/inc/admin/universities.php:343
+msgid "Nein"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:26
+msgid "Neue Universität hinzufügen"
+msgstr ""
+
+#: includes/admin/university_CRUD.php:28
+msgid "Neue Universität hinzufügen, bitte warten..."
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:29
+msgid "Neuen Studenten"
+msgstr "New students"
+
+#: woocommerce/myaccount/inc/student/documents.php:139
+msgid "Neurologie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mail_template.php:29
+msgid "Noch keine Vorlagen festgelegt."
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:154
+msgid "Notfallmedizin"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/my-orders.php:48
+msgid "Order ID:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/my-orders.php:51
+msgid "Ordered:"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:263
+#: woocommerce/myaccount/inc/admin/students.php:210
+#: woocommerce/myaccount/inc/admin/students.php:316
+#: woocommerce/myaccount/inc/admin/universities.php:150
+#: woocommerce/myaccount/inc/admin/universities.php:151
+#: woocommerce/myaccount/inc/admin/universities.php:286
+#: woocommerce/myaccount/inc/admin/universities.php:287
+msgid "Ort"
+msgstr "City"
+
+#: woocommerce/myaccount/inc/student/documents.php:140
+msgid "Orthopädie"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:390
+#: woocommerce/myaccount/inc/admin/students.php:50
+#: woocommerce/myaccount/inc/student/packages.php:44
+msgid "Paket"
+msgstr "Package"
+
+#: woocommerce/myaccount/inc/admin/students.php:135
+msgid "Paket und Universität"
+msgstr "Package and Universities"
+
+#: woocommerce/myaccount/inc/student/documents.php:159
+msgid "Palliativmedizin"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:44
+#, php-format
+msgid "Passwort vergessen? <a href=\"%s\">Here</a> Password zurücksetzen"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:141
+msgid "Pathologie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/profile.php:44
+msgid "Persönliche Daten"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/dashboard.php:118
+msgid "Persönliche Daten sind aktualisiert."
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:142
+msgid "Pharmakologie und Toxikologie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:88
+msgid "Physik"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:85
+msgid "Physiologie"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:26
+msgid "Please fill all fields"
+msgstr "Please fill all fields"
+
+#: includes/admin/student_CRUD.php:254
+#: woocommerce/myaccount/inc/admin/students.php:206
+#: woocommerce/myaccount/inc/admin/students.php:312
+msgid "Postanschrift Optional"
+msgstr "Address (Optional)"
+
+#: includes/admin/student_CRUD.php:266
+#: woocommerce/myaccount/inc/admin/students.php:221
+#: woocommerce/myaccount/inc/admin/students.php:326
+msgid "Postleitzahl"
+msgstr "Zip Code"
+
+#: woocommerce/myaccount/inc/admin/universities.php:157
+#: woocommerce/myaccount/inc/admin/universities.php:293
+msgid "Postzahl."
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:132
+msgid "Profil"
+msgstr "Profile"
+
+#: woocommerce/myaccount/inc/admin/profile.php:157
+#: woocommerce/myaccount/inc/student/dashboard.php:240
+msgid "Profilbild aktualisieren"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:156
+msgid "Prävention, Gesundheitsförderung"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:143
+msgid "Psychiatrie und Psychotherapie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:144
+msgid "Psychosomatische Medizin und Psychotherapie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:145
+msgid "Rechtsmedizin"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/dashboard.php:78
+msgid "Registriert und eingeschrieben"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:158
+msgid "Rehabilitation, Physikalische Medizin, Naturheilverfahren"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/request.php:10
+msgid "Request Form"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:160
+msgid "Schmerzmedizin"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/application.php:120
+msgid "Selcted Semester:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/application.php:123
+msgid "Selcted Universities:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/application.php:117
+msgid "Selcted Year:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/application.php:101
+msgid "Select"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mailing.php:97
+#: woocommerce/myaccount/inc/admin/mailing.php:146
+msgid "Senden"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:28
+msgid "Senden der Benutzerinformationen, bitte warten..."
+msgstr "Creating new user, please wait..."
+
+#: woocommerce/myaccount/inc/admin/universities.php:136
+#: woocommerce/myaccount/inc/admin/universities.php:272
+msgid "Short Name"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:406
+#: woocommerce/myaccount/inc/admin/students.php:433
+msgid "Sind Sie sich sicher, dass Sie diesen Eintrag löschen wollen?"
+msgstr "Are you sure you want to delete this entry?"
+
+#: woocommerce/myaccount/inc/admin/universities.php:433
+msgid "Sind Sie sicher, dass Sie diese Datensätze löschen wollen?"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:406
+msgid "Sind Sie sicher, dass Sie diesen Datensatz löschen wollen?"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/application.php:69
+msgid "Sommer"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:174
+#: woocommerce/myaccount/inc/admin/universities.php:312
+msgid "Sommer Deadline"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:45
+msgid "SS Deadline"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:260
+#: woocommerce/myaccount/inc/admin/universities.php:161
+#: woocommerce/myaccount/inc/admin/universities.php:297
+msgid "Staat"
+msgstr "State"
+
+#: includes/admin/student_CRUD.php:269
+#: woocommerce/myaccount/inc/admin/students.php:225
+#: woocommerce/myaccount/inc/admin/students.php:330
+msgid "Staatsangehörigkeit"
+msgstr "Nationality"
+
+#: includes/admin/student_CRUD.php:332
+msgid "Stadt/Kreis des Erwerbs der HZB im Inland"
+msgstr "City / district of Secondary School Degree in Germany"
+
+#: woocommerce/myaccount/inc/student/my-orders.php:54
+msgid "Status:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:143
+#: woocommerce/myaccount/inc/admin/universities.php:279
+msgid "Straße"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:251
+#: woocommerce/myaccount/inc/admin/students.php:202
+#: woocommerce/myaccount/inc/admin/students.php:308
+msgid "Straße und Hausnummer"
+msgstr "Street and House No."
+
+#: woocommerce/myaccount/inc/admin/universities.php:142
+#: woocommerce/myaccount/inc/admin/universities.php:278
+msgid "Straßenname und Straßen-Nr."
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:177
+msgid "Student hinzufügen"
+msgstr "Add student"
+
+#: woocommerce/myaccount/inc/admin/dashboard.php:90
+msgid "Studenten in den folgenden Katagorien"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/dashboard.php:122
+msgid "Studenten in den folgenden Semestern"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:401
+#: woocommerce/myaccount/inc/admin/students.php:428
+msgid "Studenten löschen"
+msgstr "Delete students"
+
+#: woocommerce/myaccount/inc/admin/students.php:13
+#: woocommerce/myaccount/inc/admin/students.php:283
+#: woocommerce/myaccount/inc/admin/students.php:290
+#: woocommerce/myaccount/inc/admin/students.php:292
+#: woocommerce/myaccount/inc/admin/students.php:293
+#: woocommerce/myaccount/inc/admin/students.php:294
+msgid "Studentendaten"
+msgstr "Students' Information"
+
+#: woocommerce/myaccount/inc/admin/students.php:134
+msgid "Studieninfo"
+msgstr "Study info"
+
+#. Name of the theme
+msgid "StudyDoc"
+msgstr "StudyDoc"
+
+#: woocommerce/myaccount/inc/admin/mailing.php:59
+#: woocommerce/myaccount/inc/admin/mailing.php:157
+msgid "Subject"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:313
+msgid "Summer Deadline"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:305
+#: woocommerce/myaccount/inc/admin/students.php:233
+#: woocommerce/myaccount/inc/admin/students.php:337
+msgid "Telefonnummer"
+msgstr "Telephone"
+
+#. Name of the template
+msgid "Test"
+msgstr "Test"
+
+#: woocommerce/myaccount/inc/admin/mail_template.php:37
+#: woocommerce/myaccount/inc/admin/mail_template.php:134
+msgid "Thema"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mail_template.php:79
+#: woocommerce/myaccount/inc/admin/mail_template.php:107
+msgid "Thema:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:201
+#: woocommerce/myaccount/inc/admin/universities.php:339
+#: woocommerce/myaccount/inc/student/application.php:25
+msgid "Tiermedizin"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:49
+msgid "TM"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:43
+msgid "Uni Code"
+msgstr ""
+
+#: includes/admin/university_CRUD.php:211
+#, php-format
+msgid "Uni Id %d Erfolgreich gelöscht!"
+msgstr ""
+
+#: includes/admin/university_CRUD.php:213
+#, php-format
+msgid "Uni Id %d kann nicht gelöscht werden!"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:353
+msgid "Universität"
+msgstr "University"
+
+#: woocommerce/myaccount/inc/admin/universities.php:260
+msgid "Universität bearbeiten"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:125
+msgid "Universität hinzufügen"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:401
+msgid "Universität löschen"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mail_template.php:38
+#: woocommerce/myaccount/inc/admin/universities.php:13
+#: woocommerce/myaccount/inc/admin/universities.php:323
+#: woocommerce/myaccount/inc/admin/universities.php:331
+#: woocommerce/myaccount/inc/student/application.php:60
+#: woocommerce/myaccount/inc/student/documents.php:99
+msgid "Universitäten"
+msgstr "Universities"
+
+#: woocommerce/myaccount/inc/admin/universities.php:428
+msgid "Universitäten löschen"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mail_template.php:141
+msgid "Update"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:146
+msgid "Urologie"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/dashboard.php:91
+msgid "Username:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mailing.php:96
+msgid "Verfassen"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mailing.php:104
+msgid "Verfassen Sie hier Ihre E-Mail:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:205
+msgid "Vorklinik Documenten"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/documents.php:68
+msgid "Vorklinik Dokumente hochladen"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mail_template.php:72
+msgid "Vorlage hinzufügen"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mailing.php:123
+#: woocommerce/myaccount/inc/admin/mail_template.php:108
+msgid "Vorlage:"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/mail_template.php:32
+msgid "Vorlagen"
+msgstr ""
+
+#: includes/admin/student_CRUD.php:245
+#: woocommerce/myaccount/inc/admin/students.php:191
+#: woocommerce/myaccount/inc/admin/students.php:298
+msgid "Vorname"
+msgstr "First Name"
+
+#: woocommerce/myaccount/inc/student/documents.php:94
+#: woocommerce/myaccount/inc/student/documents.php:161
+msgid "Wahlfach"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:262
+#: woocommerce/myaccount/inc/admin/students.php:364
+msgid "Weiblich"
+msgstr "Female"
+
+#: woocommerce/myaccount/form-login.php:29
+msgid "Willkommen im Bewerbungsprofi-Portal"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/dashboard.php:59
+msgid "Willkommen in Ihrem Med-Rep"
+msgstr ""
+
+#: woocommerce/myaccount/inc/student/application.php:70
+msgid "Winter"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:178
+#: woocommerce/myaccount/inc/admin/universities.php:316
+#: woocommerce/myaccount/inc/admin/universities.php:317
+msgid "Winter Deadline"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:374
+#: woocommerce/myaccount/inc/student/dashboard.php:189
+msgid "wir haben Ihre Dokumente erhalten"
+msgstr "We have received your documents"
+
+#. Description of the theme
+msgid "Wordpress-Theme for the StudyDoc"
+msgstr "Wordpress-Theme for the StudyDoc"
+
+#: woocommerce/myaccount/inc/admin/universities.php:46
+msgid "WS Deadline"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/students.php:185
+#: woocommerce/myaccount/inc/admin/students.php:260
+#: woocommerce/myaccount/inc/admin/students.php:362
+#: woocommerce/myaccount/inc/admin/students.php:373
+#: woocommerce/myaccount/inc/admin/universities.php:187
+#: woocommerce/myaccount/inc/admin/universities.php:195
+#: woocommerce/myaccount/inc/admin/universities.php:203
+#: woocommerce/myaccount/inc/admin/universities.php:325
+#: woocommerce/myaccount/inc/admin/universities.php:333
+#: woocommerce/myaccount/inc/admin/universities.php:341
+msgid "Wählen Sie..."
+msgstr "Choose..."
+
+#: woocommerce/myaccount/inc/admin/universities.php:193
+#: woocommerce/myaccount/inc/student/application.php:23
+msgid "Zahnmedizin"
+msgstr ""
+
+#: includes/style-script-enqueue.php:49
+msgid "Zeilen pro Seite"
+msgstr "Rows per Page"
+
+#: includes/admin/student_CRUD.php:396
+msgid "Zeit bestellen"
+msgstr "Order Time"
+
+#: includes/admin/student_CRUD.php:424
+msgid "ZIP generieren"
+msgstr "Creating Zip"
+
+#: woocommerce/myaccount/inc/admin/universities.php:48
+msgid "ZM"
+msgstr ""
+
+#: woocommerce/myaccount/inc/admin/universities.php:146
+#: woocommerce/myaccount/inc/admin/universities.php:282
+msgid "Zusätzliche Adresse"
+msgstr ""

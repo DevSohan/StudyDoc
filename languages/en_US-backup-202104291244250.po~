@@ -1,0 +1,429 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StudyDoc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-20 10:16+0000\n"
+"PO-Revision-Date: 2021-04-20 13:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1\n"
+"X-Domain: study-doc"
+
+#: includes/admin/student_CRUD.php:359
+msgid "Ab Datum"
+msgstr "From"
+
+#: includes/admin/student_CRUD.php:365
+msgid "Abschluss"
+msgstr "Type of Degree"
+
+#: woocommerce/myaccount/inc/admin/students.php:76
+msgid "Aktion"
+msgstr "Action"
+
+#: includes/admin/student_CRUD.php:38
+msgid "Aktualisierung der Benutzerinformationen, bitte warten..."
+msgstr "User information updating, please wait..."
+
+#: includes/admin/student_CRUD.php:257
+#: woocommerce/myaccount/inc/admin/students.php:208
+msgid "Anrede"
+msgstr "Title"
+
+#: includes/admin/student_CRUD.php:478
+msgid "Archiv konnte nicht geöffnet werden"
+msgstr "Archive could not be opened"
+
+#: includes/admin/student_CRUD.php:341
+msgid "Art der HZB"
+msgstr "Type of  Secondary School Diploma"
+
+#: includes/admin/student_CRUD.php:396
+msgid "Ausgewähltes Jahr"
+msgstr "Selected Year"
+
+#: includes/admin/student_CRUD.php:399
+msgid "Ausgewähltes Semester"
+msgstr "Selected Semester"
+
+#: includes/admin/student_CRUD.php:402
+msgid "Ausgewähltes Universität"
+msgstr "Selected Universities"
+
+#: includes/admin/student_CRUD.php:408
+msgid "Bestellnummer"
+msgstr "Order No."
+
+#: woocommerce/myaccount/inc/admin/students.php:50
+msgid "Bewerber"
+msgstr "Applicants"
+
+#: includes/admin/student_CRUD.php:163
+msgid "Bewerbungsprofi"
+msgstr "Bewerbungsprofi"
+
+#: includes/admin/student_CRUD.php:362
+msgid "Bis Datum"
+msgstr "To"
+
+#: includes/admin/student_CRUD.php:104
+msgid "Das Anlegen eines neuen Studenten ist fehlgeschlagen:"
+msgstr "New Student creating attempt is failed:"
+
+#: woocommerce/myaccount/inc/admin/students.php:402
+msgid "Datei an die Universität gesendet"
+msgstr "File sent to the universities"
+
+#: woocommerce/myaccount/inc/admin/students.php:400
+msgid "Datei ist in Bearbeitung"
+msgstr "File is being processed"
+
+#: includes/admin/student_CRUD.php:344
+msgid "Datum des Erwerbs der HZB"
+msgstr "Date of Secondary School Graduation "
+
+#: includes/admin/student_CRUD.php:168
+msgid "Die E-Mail konnte nicht gesendet werden."
+msgstr "The email could not be sent."
+
+#: woocommerce/myaccount/inc/admin/students.php:434
+#: woocommerce/myaccount/inc/admin/students.php:461
+msgid "Diese Ausführung kann nicht Rückgängig gemacht werden."
+msgstr "This execution cannot be undone."
+
+#: woocommerce/myaccount/inc/admin/students.php:160
+msgid "Dokumente"
+msgstr "Documents"
+
+#: includes/admin/student_CRUD.php:28 includes/admin/student_CRUD.php:433
+msgid "Download"
+msgstr "Download"
+
+#: includes/admin/student_CRUD.php:356
+msgid "Durchschnittsnote"
+msgstr "Average Grade"
+
+#: woocommerce/myaccount/inc/admin/students.php:266
+#: woocommerce/myaccount/inc/admin/students.php:370
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: includes/admin/student_CRUD.php:317
+msgid "E-Mail Optional"
+msgstr "Email (Optional)"
+
+#: includes/admin/student_CRUD.php:314
+#: woocommerce/myaccount/inc/admin/students.php:71
+msgid "E-Mail-Adresse"
+msgstr "Email"
+
+#: woocommerce/myaccount/inc/admin/students.php:401
+msgid "Einige Dokumente fehlen"
+msgstr "Some documents are missing"
+
+#: includes/admin/student_CRUD.php:217
+msgid "Erfolgreich aktualisiert!"
+msgstr "Updated successfully!"
+
+#: includes/admin/student_CRUD.php:543
+msgid "Erfolgreich gelöscht!"
+msgstr "Successfully deleted!"
+
+#: includes/admin/student_CRUD.php:174
+msgid "Erfolgreich hinzugefügt!"
+msgstr "Successfully added!"
+
+#: includes/admin/student_CRUD.php:506
+msgid "Etwas ist schief gelaufen, bitte versuchen Sie es erneut."
+msgstr "Something went wrong, please try again."
+
+#: includes/admin/student_CRUD.php:371
+#: woocommerce/myaccount/inc/admin/students.php:72
+msgid "Fach"
+msgstr "Subject"
+
+#: includes/admin/student_CRUD.php:374
+msgid "Fachsemester"
+msgstr "Semester"
+
+#: includes/admin/student_CRUD.php:219 includes/admin/student_CRUD.php:545
+msgid "Fehlgeschlagen!"
+msgstr "Failed!"
+
+#: functions.php:91
+msgid "Filter..."
+msgstr "Filter..."
+
+#: functions.php:90
+msgid "Filtern nach"
+msgstr "Filter By"
+
+#: woocommerce/myaccount/inc/admin/students.php:396
+msgid "Fortschrittsbericht"
+msgstr "Progress Report"
+
+#: woocommerce/myaccount/inc/admin/students.php:212
+msgid "Frau"
+msgstr "Mrs"
+
+#: includes/admin/student_CRUD.php:155
+msgid "From: Bewerbungsprofi <info@bewerbungsprofi.de>"
+msgstr "From: Bewerbungsprofi <info@bewerbungsprofi.de>"
+
+#: includes/admin/student_CRUD.php:290
+#: woocommerce/myaccount/inc/admin/students.php:275
+#: woocommerce/myaccount/inc/admin/students.php:377
+msgid "Geburtsdatum"
+msgstr "Date of Birth"
+
+#: includes/admin/student_CRUD.php:296
+msgid "Geburtsland"
+msgstr "Country of Birth"
+
+#: includes/admin/student_CRUD.php:293
+#: woocommerce/myaccount/inc/admin/students.php:279
+#: woocommerce/myaccount/inc/admin/students.php:381
+msgid "Geburtsort"
+msgstr "Place of Birth"
+
+#: includes/admin/student_CRUD.php:287
+#: woocommerce/myaccount/inc/admin/students.php:283
+#: woocommerce/myaccount/inc/admin/students.php:385
+msgid "Geschlecht"
+msgstr "Gender"
+
+#: includes/admin/student_CRUD.php:323
+#: woocommerce/myaccount/inc/admin/students.php:262
+#: woocommerce/myaccount/inc/admin/students.php:366
+msgid "Handynummer"
+msgstr "Mobile"
+
+#: woocommerce/myaccount/inc/admin/students.php:211
+msgid "Herr"
+msgstr "Mr"
+
+#. URI of the theme
+msgid "http://medi-rep.de"
+msgstr "http://medi-rep.de"
+
+#. Author URI of the theme
+msgid "http://medi.rep.de"
+msgstr "http://medi.rep.de"
+
+#: includes/admin/student_CRUD.php:157
+msgid "Ihr Konto wurde vom Bewerbungsprofi Team gemäß Ihrer Anfrage erstellt"
+msgstr ""
+"Your account has been created by the application team based on your request."
+
+#: woocommerce/myaccount/inc/admin/students.php:157
+msgid "Kontakt"
+msgstr "Contact"
+
+#: includes/admin/student_CRUD.php:272
+#: woocommerce/myaccount/inc/admin/students.php:242
+#: woocommerce/myaccount/inc/admin/students.php:347
+msgid "Land"
+msgstr "Country"
+
+#: includes/admin/student_CRUD.php:350
+msgid "Land des Erwerbs der HZB im Ausland"
+msgstr "Country of Secondary School Degree if Abroad"
+
+#: includes/admin/student_CRUD.php:377
+msgid "Landesprüfungsamt"
+msgstr "State Examination Office Report"
+
+#: woocommerce/myaccount/inc/admin/students.php:73
+msgid "LPA"
+msgstr "LPA"
+
+#: woocommerce/myaccount/inc/admin/students.php:55
+msgid "Löschen"
+msgstr "Clear"
+
+#: includes/admin/student_CRUD.php:46
+msgid "Löschen der Benutzerinformationen, bitte warten..."
+msgstr "Deleting user information, please wait ..."
+
+#: includes/admin/student_CRUD.php:42
+msgid "Löschen, bitte warten..."
+msgstr "Deleting, please wait ..."
+
+#: includes/admin/student_CRUD.php:162
+msgid "Mit freundlichen Grüßen"
+msgstr "With best regards"
+
+#. Author of the theme
+msgid "Mohammad Sohanur Rahman, Singh Mali, Abdur Rahman"
+msgstr "Mohammad Sohanur Rahman, Singh Mali, Abdur Rahman"
+
+#: woocommerce/myaccount/inc/admin/students.php:286
+#: woocommerce/myaccount/inc/admin/students.php:388
+msgid "Männlich"
+msgstr "Male"
+
+#: includes/admin/student_CRUD.php:263
+#: woocommerce/myaccount/inc/admin/students.php:220
+#: woocommerce/myaccount/inc/admin/students.php:327
+msgid "Nachname"
+msgstr "Surname"
+
+#: woocommerce/myaccount/inc/admin/students.php:70
+msgid "Name"
+msgstr "Name"
+
+#: includes/admin/student_CRUD.php:353
+msgid "Name der letzten Schule"
+msgstr "Name of the last school"
+
+#: woocommerce/myaccount/inc/admin/students.php:53
+msgid "Neuen Studenten"
+msgstr "New students"
+
+#: includes/admin/student_CRUD.php:278
+#: woocommerce/myaccount/inc/admin/students.php:235
+#: woocommerce/myaccount/inc/admin/students.php:341
+msgid "Ort"
+msgstr "City"
+
+#: includes/admin/student_CRUD.php:405
+#: woocommerce/myaccount/inc/admin/students.php:74
+msgid "Paket"
+msgstr "Package"
+
+#: woocommerce/myaccount/inc/admin/students.php:159
+msgid "Paket und Universität"
+msgstr "Package and Universities"
+
+#: includes/admin/student_CRUD.php:27
+msgid "Please fill all fields"
+msgstr "Please fill all fields"
+
+#: includes/admin/student_CRUD.php:269
+#: woocommerce/myaccount/inc/admin/students.php:231
+#: woocommerce/myaccount/inc/admin/students.php:337
+msgid "Postanschrift Optional"
+msgstr "Address (Optional)"
+
+#: includes/admin/student_CRUD.php:281
+#: woocommerce/myaccount/inc/admin/students.php:246
+#: woocommerce/myaccount/inc/admin/students.php:351
+msgid "Postleitzahl"
+msgstr "Zip Code"
+
+#: woocommerce/myaccount/inc/admin/students.php:156
+msgid "Profil"
+msgstr "Profile"
+
+#: includes/admin/student_CRUD.php:34
+msgid "Senden der Benutzerinformationen, bitte warten..."
+msgstr "Creating new user, please wait..."
+
+#: woocommerce/myaccount/inc/admin/students.php:433
+#: woocommerce/myaccount/inc/admin/students.php:460
+msgid "Sind Sie sich sicher, dass Sie diesen Eintrag löschen wollen?"
+msgstr "Are you sure you want to delete this entry?"
+
+#: includes/admin/student_CRUD.php:275
+msgid "Staat"
+msgstr "State"
+
+#: includes/admin/student_CRUD.php:284
+#: woocommerce/myaccount/inc/admin/students.php:250
+#: woocommerce/myaccount/inc/admin/students.php:355
+msgid "Staatsangehörigkeit"
+msgstr "Nationality"
+
+#: includes/admin/student_CRUD.php:347
+msgid "Stadt/Kreis des Erwerbs der HZB im Inland"
+msgstr "City / district of Secondary School Degree in Germany"
+
+#: includes/admin/student_CRUD.php:266
+#: woocommerce/myaccount/inc/admin/students.php:227
+#: woocommerce/myaccount/inc/admin/students.php:333
+msgid "Straße und Hausnummer"
+msgstr "Street and House No."
+
+#: woocommerce/myaccount/inc/admin/students.php:201
+msgid "Student hinzufügen"
+msgstr "Add student"
+
+#: woocommerce/myaccount/inc/admin/students.php:427
+#: woocommerce/myaccount/inc/admin/students.php:454
+msgid "Studenten löschen"
+msgstr "Delete students"
+
+#: woocommerce/myaccount/inc/admin/students.php:37
+#: woocommerce/myaccount/inc/admin/students.php:307
+#: woocommerce/myaccount/inc/admin/students.php:315
+#: woocommerce/myaccount/inc/admin/students.php:317
+#: woocommerce/myaccount/inc/admin/students.php:318
+#: woocommerce/myaccount/inc/admin/students.php:319
+msgid "Studentendaten"
+msgstr "Students' Information"
+
+#: woocommerce/myaccount/inc/admin/students.php:158
+msgid "Studieninfo"
+msgstr "Study info"
+
+#. Name of the theme
+msgid "StudyDoc"
+msgstr "StudyDoc"
+
+#: includes/admin/student_CRUD.php:320
+#: woocommerce/myaccount/inc/admin/students.php:258
+#: woocommerce/myaccount/inc/admin/students.php:362
+msgid "Telefonnummer"
+msgstr "Telephone"
+
+#. Name of the template
+msgid "Test"
+msgstr "Test"
+
+#: includes/admin/student_CRUD.php:368
+msgid "Universität"
+msgstr "University"
+
+#: includes/admin/student_CRUD.php:260
+#: woocommerce/myaccount/inc/admin/students.php:216
+#: woocommerce/myaccount/inc/admin/students.php:323
+msgid "Vorname"
+msgstr "First Name"
+
+#: woocommerce/myaccount/inc/admin/students.php:287
+#: woocommerce/myaccount/inc/admin/students.php:389
+msgid "Weiblich"
+msgstr "Female"
+
+#: woocommerce/myaccount/inc/admin/students.php:399
+msgid "wir haben Ihre Dokumente erhalten"
+msgstr "We have received your documents"
+
+#. Description of the theme
+msgid "Wordpress-Theme for the StudyDoc"
+msgstr "Wordpress-Theme for the StudyDoc"
+
+#: woocommerce/myaccount/inc/admin/students.php:210
+#: woocommerce/myaccount/inc/admin/students.php:285
+#: woocommerce/myaccount/inc/admin/students.php:387
+#: woocommerce/myaccount/inc/admin/students.php:398
+msgid "Wählen Sie..."
+msgstr "Choose..."
+
+#: functions.php:92
+msgid "Zeilen pro Seite"
+msgstr "Rows per Page"
+
+#: includes/admin/student_CRUD.php:411
+msgid "Zeit bestellen"
+msgstr "Order Time"
+
+#: includes/admin/student_CRUD.php:439
+msgid "ZIP generieren"
+msgstr "Creating Zip"

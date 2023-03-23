@@ -1,0 +1,1512 @@
+/*
+ => Custom WooCommerce style.
+ => common elements style for admins and students
+ 
+*/
+
+.uni-list-wrap{
+	margin-top: 45px;
+/* 	background: #fff;
+	border: 1px solid #f0f0f0;
+	padding: 20px 10px; */
+	border-radius: 14px;
+}
+
+.unilist-ul{
+	margin: 5px;
+	list-style: none;
+	padding: 0 10px;
+}
+
+.university-li{
+	padding: 15px 10px;
+border: 1px solid #f0f0f0;
+border-radius: 14px;
+margin-bottom: 15px;
+text-align: center;
+}
+
+.university-li:hover{
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.university-li-active{
+	background: #ff6600;
+	color: #fff;
+}
+.checklists {
+	margin-top: 45px;
+}
+
+.checklist{
+	border: 1px solid #f0f0f0;
+	padding: 20px 10px;
+	box-sizing: border-box;
+	border-radius: 14px;
+}
+
+.checklist-wrap{
+	padding-left: 20px;
+}
+
+.null_text{
+	padding: 10px 20px;	
+}
+.checklist-ol{
+	padding: 10px 10px 5px 20px;
+	margin: 0;
+}
+.checklist-ol li{
+	padding: 5px 5px;
+}
+
+.checklist-ol li:hover{
+	color: #ff6600;
+	cursor: pointer;
+}
+
+.custom_popover{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+
+
+#checkllist-OSJ,
+#checkllist-RIG,
+#checkllist-RES,
+#checkllist-BRE,
+#checkllist-VIL,
+#checkllist-RIJ,
+#checkllist-BRA,
+#checkllist-NUM{
+	display:none;
+}
+
+.modal-close{
+	position:relative;
+	text-align: right;
+}
+#close_modal_cli:hover{
+	cursor: pointer;
+	color: #ff6600;
+}
+
+.checkllist-item-heading{
+	font-family: 'Cairo', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 0px 10px 10px 15px;
+}
+.checkllist-item-description{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	padding: 10px 10px 10px 15px;
+}
+
+.bootstrap-select .dropdown-toggle {
+	background: #fff;
+	background-color: #fff !important;
+	color: #4d4d4d !important;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 400;
+	border: 1px solid #ccc;
+	text-shadow: none !important;
+}
+
+.bootstrap-select .dropdown-toggle:hover, 
+.bootstrap-select .dropdown-toggle:active,
+.bootstrap-select .dropdown-toggle:focus{
+	background: #fff !important;
+	background-color: #fff !important;
+	color: #4d4d4d !important;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 400;
+	box-shadow: none;
+	text-shadow: none !important;
+}
+
+.bs-select-all, .bs-deselect-all{
+	background: #fff !important;
+	background-color: #fff !important;
+	border: 1px solid #f0f0f0 !important;
+	border-radius: 5px !important;
+	color: #141414 !important;
+	text-shadow: none !important;
+}
+.bs-select-all:hover, .bs-deselect-all:hover{
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+.dropdown-menu li a{
+	color: #4d4d4d;
+}
+.dropdown-menu li a:hover{
+	color: #ff6600;
+}
+p.hints{
+	font-size: 11px;
+	padding: 5px;
+
+}
+
+:root {
+  --c-primary: #ff6600;
+  --c-white: #ffffff;
+  --c-black: #000000;
+  --c-text: #4d4d4d;
+  --c-accent: #ffc800;
+}
+
+/* --------------------------------------------------------------------------
+Student Profile
+-------------------------------------------------------------------------- */
+.student_dash_inner {
+	/* margin: 1.5em 1.5em 0 1.5em; */
+	margin: 15px 0;
+}
+
+.status_button {
+	font-size: 16px !important;
+	font-weight: 400 !important;
+	padding: 7px 20px;
+	border: 1px solid #ff6600;
+	margin-top: 10px;
+}
+.status{
+	display: none;
+}
+.status_button:focus,
+.status_button:active,
+.status_button:hover, {
+	background: #fff !important;
+	color: #ff6600 !important;
+	
+}
+
+
+.wc-student-info-wrapper{
+	margin-top: 40px;
+    background: #ffffff;
+	border: 1px solid #f0f0f0;
+	border-radius: 14px;
+    padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.wc-student-uni-info{
+	margin-top: 10px;
+    background: #ffffff;
+	border: 1px solid #f0f0f0;
+	border-radius: 14px;
+/*     padding-top: 30px; */
+	padding-bottom: 30px;
+}
+
+.wc-sip-image{
+	display: block;
+	position: relative;
+}
+
+
+/* .change_dp{
+	background: var(--c-primary);
+	color: var(--c-white) !important;
+	margin-top: 15px;
+	border: 1px solid var(--c-primary);
+	padding: 3px 10px 6px 10px;
+	transition: all .3s ease-in-out;
+} */
+
+.change_dp {
+	background: rgba(255,102,0,1);
+	color: var(--c-white) !important;
+	transition: all .3s ease-in-out;
+	position: absolute;
+	top: 125px;
+	right: 33%;
+	border-radius: 50%;
+	opacity: 0.7;
+}
+
+.change_dp_icon{
+	padding: 10px 12px; 
+}
+.change_dp:hover{
+	opacity: 1;
+}
+
+/* .change_dp:active,
+.change_dp:hover{
+	color: var(--c-primary) !important;
+	background: var(--c-white);
+} */
+
+.dashboard_section{
+	margin-top: 40px;
+}
+
+.dashboard_section_heading{
+	padding-bottom: 15px;
+	font-size: 22px !important;
+	color: #52628d !important;
+	font-weight: 400 !important;
+	padding-left: 15px;
+}
+.dashboard_section_subheading{
+	font-family: 'Cairo', sans-serif;
+	font-size: 16px ;
+	color: #52628d ;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.dashboard_section_gap{
+	width: 100%;
+	padding: 0;
+	height: 1px;
+	background: #f0f0f0;
+}
+.section_hrading{
+	font-size: 22px !important;
+	color: #52628d !important;
+	font-weight: 400 !important; 
+}
+
+.wc-student-info-contents{
+
+    background: #ffffff;
+	border: 1px solid #f0f0f0;
+	border-radius: 14px;
+
+}
+.wc-sic-name{
+	font-size: 1.5rem;
+color: var(--c-primary);
+margin-bottom: 12px;
+}
+.wc-sic-uid,
+.wc-sic-address,
+.wc-sic-email{
+	padding: 30px;
+	color: #4d4d4d;
+}
+
+.wc-sic-year,
+.wc-sic-semester,
+.wc-sic-subject,
+.wc-sic-universities{
+	padding: 30px;
+	color: #4d4d4d;
+}
+.wc-sic-universities-ul{
+	padding: 0 !important;
+	list-style: none !important;
+	text-indent: 0;
+}
+
+.wc-sic-universities-ul li{
+	padding: 5px 0 !important;
+}
+
+.wc-student-udpate-wrapper{
+/* 	margin-top: 40px; */
+	margin-left: -30px;
+/* 	margin-right: -30px; */
+}
+
+.wc-su-item-card{
+	border: 1px solid #f0f0f0;
+	background: #ffffff;
+	border-radius: 14px;
+	height: 100%;
+}
+
+.card-icon{
+	border: 2px solid #3DA17A;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	color: #3DA17A;
+	
+}
+.card-icon-danger{
+	border: 2px solid #cc707b;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	color: #cc707b;
+}
+.icon-wc{
+margin: 25px 0px 0px 0px !important;	
+}
+
+.wc-db-txt-alert{
+	color: #87234a;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	
+}
+.wc-db-txt{
+	color: #238760;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.wc-db-alert-link{
+	color: #87234a;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.wc-db-alert-link:hover{
+	color: #87234a;
+	font-weight: bold;
+	text-decoration: none;
+}
+.wc-db-progress-report{
+	border: 1px solid #f0f0f0;
+	border-radius: 14px;
+}
+
+
+.student-status{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	padding-left: 20px;
+}
+
+.progress_text{
+	padding-left: 15px;
+}
+.wc-progress-report-header{
+	background: transparent;
+	margin-bottom: 10px;
+	border: none;
+	color: rgba(0,0,0,0.8); 
+}
+
+.wc-report{
+	border-radius: 0;
+margin-left: 20px;
+margin-right: 10px;
+width: 95%;
+
+
+}
+
+
+
+.student_profile .nav-link {
+	color: #fff;
+}
+.student_profile .nav-link:first-child,.personal_data .nav-link:first-child::before {
+	background: rgb(188,189,156);
+}
+.student_profile .nav-link:nth-child(2),.personal_data .nav-link:nth-child(2)::before  {
+	background: rgb(94,152,145);
+}
+.student_profile .nav-link:last-child,.personal_data .nav-link:last-child::before  {
+	background: rgb(0,114,133);
+}
+.student_profile .nav-link.active,.personal_data .nav-link.active::before  {
+	background: var(--c-black);
+}
+.account-page-header h1 {
+	padding: 15px 0;
+	margin: 0 0 0 15px;
+	color: var(--c-black);
+	font-size: 22px;
+}
+
+.personal_data{
+	background: #fafafa;
+}
+.wc-student-data-form-wrapper{
+	padding-bottom: 2em;
+}
+
+.student_contact, .wc-student-data-form {
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* .wc-student-data-form{
+	background: #ffffff;
+	padding: 2em;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+	margin-top: 2em;
+} */
+.student_profile .nav-item, .personal_data .nav-link {
+	position: relative;
+	border-radius: 0px !important;
+}
+.student_profile .nav-link::before {
+	border-top: 21px inset transparent;
+	border-bottom: 21px inset transparent;
+	border-left: 20px solid #fff;
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.student_profile .nav-link::after {
+	border-top: 21px inset transparent;
+	border-bottom: 21px inset transparent;
+	border-left: 20px solid transparent;
+	position: absolute;
+	content: "";
+	top: 0;
+	right: 0;
+	background: #fff;
+}
+ .student_documents, .documents_upload{
+	background: #ffffff;
+	margin-top: 40px;
+	 padding: 30px;
+	 border: 1px solid #f0f0f0;
+	 border-radius: 14px;
+} 
+.doc_upload_btn{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+/* .student_documents{
+	
+	padding: 2em;
+	margin-top: 2em;
+} */
+.student_profile .nav-link:first-child::after{
+	border-left-color: rgb(188,189,156);
+}
+.student_profile .nav-link:nth-child(2)::after{
+	border-left-color: rgb(94,152,145);
+}
+.student_profile .nav-link:last-child::after{
+	border-left-color: rgb(0,114,133);
+}
+.student_profile .nav-link.active::after{
+	border-left-color: #990a2c;
+}
+select option {
+	padding: 5px 10px;
+}
+label.custom-file-label {
+    width: 100%;
+}
+.upload_document_form p.status {
+    margin-top: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+}
+.upload_document_form input[type="file"] {
+    border: none;
+}
+.upload_document_form .form-group {
+    margin-bottom: 0;
+}
+
+.upload_document_form .form-row {
+    margin-bottom: 0;
+}
+.custom-file .custom-file-label {
+    height: calc(1.5em + .75rem + 5px);
+    width: 100%;
+    padding: 9px;
+	font-size: 16px !important;
+}
+
+.custom-file-label::after {
+    height: calc(1.5em + .75rem + 3px);
+	padding-top: 9px;
+}
+
+.student-profile-packages{
+	height: 100vh
+}
+/* --------------------------------------------------------------------------
+My Account Settings
+-------------------------------------------------------------------------- */
+
+/* my account navigation */
+
+.profile-header{
+	box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.02);
+	border-bottom: 1px solid #f0f0f0;
+	background: #fff;
+}
+
+.width_1600{
+	max-width: 1600px;
+	margin: 0px auto;
+}
+
+.wc-custom-menu{
+	display: flex;
+	justify-content: flex-end;
+	vertical-align: middle;
+}
+
+.profile-logo-img{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.wc-custom-menu-collapsed{
+	width: 52px;	
+}
+.wc-custom-menu-expended{
+	width: 200px;	
+}
+
+.wc-custom-menu-items{
+	width:inherit;
+}
+
+.wc-nav-section{
+	display: flex;
+	vertical-align: middle;
+	align-items: center;
+	justify-content: flex-end;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation {
+	float: left;
+	width: inherit;
+/* 	height: 100vh;
+	position: fixed; */
+	background: #fff; 
+
+	
+}
+.woocommerce-account .woocommerce-MyAccount-content {
+	width: 100%;
+	transition: all .6s ease-in-out;
+	
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	vertical-align: middle;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li {
+	display: block;
+	overflow: hidden;
+	padding: 10px 0px;
+	color: #4d4d4d;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active {
+/* 	background: rgba(0,0,0,0.5);  */
+	color: #ff6600;
+/* 	border-left: 2px solid var(--c-accent); */
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li:hover{
+/* 	background: rgba(0,0,0,0.5);  */
+	color: #ff6600;
+/* 	border-left: 2px solid var(--c-accent); */
+	cursor: pointer;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a {
+	padding: 15px;
+	background: transparent;
+	margin: 0;
+	color: inherit;
+/* 	text-indent: 60px; */
+/* 	overflow:hidden; */
+	white-space: nowrap;
+	transition: all 0.3s ease;
+	font-weight: 600 !important;
+	
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a:hover {
+	text-decoration: none; 
+	
+}
+/* .woocommerce-account .woocommerce-MyAccount-navigation ul li a:active {
+	text-decoration: none;
+	background: rgba(0,0,0,0.5);
+} */
+
+/* .woocommerce-account .woocommerce-MyAccount-navigation ul li a::before {
+	display: none;
+}
+ */
+/* icons in the begining of navigation links */
+/* li.woocommerce-MyAccount-navigation-link a::before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	margin-right: 18px;
+	font-style: normal;
+  	font-variant: normal;
+  	text-rendering: auto; 
+	text-indent: 0px;
+	font-size: 22px;
+} */
+/* 
+li.woocommerce-MyAccount-navigation-link--dashboard a::before {
+	content: "\f53f";
+}
+
+li.woocommerce-MyAccount-navigation-link--bewerbung a::before {
+	content: "\f007";
+}
+
+li.woocommerce-MyAccount-navigation-link--paket a::before {
+	content: "\f07a";
+}
+
+li.woocommerce-MyAccount-navigation-link--universitaeten a::before {
+	content: "\f19c";
+}
+
+li.woocommerce-MyAccount-navigation-link--dokumente a::before {
+	content: "\f07c";
+}
+li.woocommerce-MyAccount-navigation-link--kontakt a::before {
+	content: "\f0e0";
+}
+
+li.woocommerce-MyAccount-navigation-link--customer-logout a::before {
+	content: "\f011";
+}
+li.woocommerce-MyAccount-navigation-link--admin a::before {
+	content: "\f007";
+}
+
+li.woocommerce-MyAccount-navigation-link--students a::before {
+	content: "\f0c0";
+}
+
+li.woocommerce-MyAccount-navigation-link--universities a::before {
+	content: "\f19c";
+}
+
+li.woocommerce-MyAccount-navigation-link--e-mail a::before {
+	content: "\f1fa";
+}
+li.woocommerce-MyAccount-navigation-link--e-mail-vorlagen a::before {
+	content: "\f658";
+} */
+
+
+
+/* my account contents */
+.wc-content-wrapper{
+	height: 100%;
+	
+}
+.account-page-header{
+	background-color: #fff;
+	height: 60px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+	color: var(--c-black);
+	text-transform: uppercase;
+}
+
+.admin_universities, .admin_students, .admin_dash, .admin_emails_templates, .admin_emails{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.student_profile .nav, .personal_data .tab-content {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.student_profile .nav-link{
+	border-radius:0px;
+}
+#personal_info {
+	width: 100%;
+}
+#student_info input:disabled, #student_info select:disabled {
+	background-color: #eee;
+	border-color: #ccc;
+	color: #555;
+}
+#student_info .elementor-select-wrapper.selected_disable::before {
+	color: #777;
+}
+#profile_btns .elementor-widget-wrap {
+	justify-content: flex-end;
+}
+
+p.reg_area, p.forgetpass_area {
+    display: inline-block;
+}
+.login p.reg_area, .login p.forgetpass_area, .register p.login_area {
+    display: none !important;
+}
+.admin_dash .admin-welcome {
+	margin-bottom: 20px;
+}
+.admin_dash .chart-row {
+  margin-bottom: 40px;
+}
+.admin_dash .chart-row .card {
+  background: #eeeeee;
+}
+.admin_dash .weatherwidget-io {
+	margin-top: 100px;
+}
+.custom_lost_click {
+    background: #0B788E;
+    padding: 10px;
+    color: #fff !important;
+}
+
+.woocommerce-MyAccount-content .table-responsive {
+	overflow: hidden;
+}
+
+/* --------------------------------------------------------------------------
+Cart and Checkout Page
+-------------------------------------------------------------------------- */
+
+.cross-sells .product {
+	background: #eee;
+	width: 350px !important;
+	margin: ;
+	padding: 30px !important;
+}
+.cross-sells .product .woocommerce-loop-product__title, .cross-sells .product .price {
+	text-align: center;
+}
+.cross-sells .product .button {
+	text-align: center;
+	margin: auto;
+	display: block;
+	width: 150px;
+	background: #0B788E;
+	border: 2px solid #0B788E;
+	color: #fff;
+	padding: 12px 24px;
+}
+.cross-sells .product .button:hover {
+	background: #fff;
+}
+.fixed_cart_total, .fixed_checkout_total {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	height: 100vh;
+	display: flex;
+	align-content: flex-end;
+	align-items: flex-end;
+	z-index: 1;
+	background: #ddd;
+}
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+	float: none;
+	width: 100%;
+}
+.woocommerce-cart-form,.custom_checkout_table .woocommerce-checkout, .custom_checkout_content, .custom_checkout_bill {
+	margin-top: 50px;
+	margin-bottom:50px;
+}
+.custom_cart_table, .custom_checkout_table{padding:0;}
+.woocommerce-cart-form, .custom_checkout_table .woocommerce-checkout {
+	padding: 0 15px;
+}
+.custom_footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+.cart_totals .cart-subtotal {
+	display: none;
+}
+.custom_checkout_table .form-row {
+	width: 100% !important;
+	float: none !important;
+	margin: auto !important;
+	clear: none !important;
+}
+.custom_checkout_table #billing_company_field {
+	width: 100% !important;
+}
+.custom_checkout_table .woocommerce-additional-fields h3 {
+	margin-top: 30px;
+}
+.custom_checkout_table #order_comments_field {
+	width: 100% !important;
+}
+label.woocommerce-form__label.woocommerce-form__label-for-checkbox.woocommerce_terms.checkbox {
+    width: 100%;line-height: 26px;
+}
+.woocommerce form .form-row label,.woocommerce form .form-row input.input-text, .woocommerce form .form-row .select2-selection__rendered, .woocommerce form .form-row textarea {
+	line-height: normal;
+	font-size: 14px;font-family: 'Arial';
+}
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea, .woocommerce form .select2-selection--single {
+	line-height: normal;
+	font-size: 14px;
+	border: 1px solid #888;
+	border-radius: 4px;
+	padding: 5px 14px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+.select2-results__option[aria-selected], .select2-results__option[data-selected] {
+	cursor: pointer;
+	font-size: 14px;
+	padding: 3px 6px;
+}
+.select2-container .select2-selection--single {
+
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+	border-color: #888 transparent transparent transparent;
+	margin-top: -5px;
+}
+
+.form-row label {
+	width: 40%;
+	float: left;
+}
+#uniadd .form-row label, #uniupdate .form-row label {
+	width: 100%;
+	float: left;
+}
+span.woocommerce-input-wrapper {
+	width: 60%;
+	float: left;
+}
+#billing_address_2_field span.woocommerce-input-wrapper {
+	margin-left: 40%;
+}
+#place_order {
+	display: block;
+	margin-bottom: 1em;
+	padding: 1em;
+	float: none !important;
+	width: 100%;
+	font-size: 1.25em;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #0B788E;
+    color: #fff;
+    border: 2px solid #0B788E;
+}
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+	color: #0B788E;
+	background: #fff;
+	border: 2px solid #0B788E;
+}
+.woocommerce ul.products li.product .price {
+	color: #0B788E;
+}
+.woocommerce a.remove, .woocommerce form .form-row .required {
+	color: #0B788E !important;
+}
+.woocommerce a.remove:hover {
+	color: #fff !important;
+	background: #0B788E;
+}
+.order {
+/* 	border: 1px solid #ddd; */
+	padding: 30px !important;
+	text-align: center;
+/* 	box-shadow: 5px 5px 5px #ddd; */
+	 box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+	background: #fff;
+	margin-bottom: 2em;
+}
+.order_items {
+	margin-top: 2em;
+}
+.order_items .order_item {
+	text-align: left;
+	padding-left: 15px;
+padding-right: 15px;
+
+}
+.order_items .order_item span {
+	color: var(--c-primary);
+	font-weight: bold;
+}
+.product-details-wrapper{
+	background: #fff;
+	padding: 30px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+.product_details ul{
+	margin-top: 7px;
+	list-style-type: square;
+}
+
+.product_details ul li{
+	padding-bottom: 5px;
+}
+.product_details ul li::marker{
+	color: var(--c-primary);
+}
+.product_details .et_pb_best_value{
+	color: var(--c-text);
+	
+}
+.personal_data .nav-pills .nav-link.active, .personal_data .nav-pills .show>.nav-link {
+	background-color: #0B788E;
+}
+.container.product_details {
+	margin-top: 50px;
+}
+
+.admin_profile .tab_list,
+.student_dash .tab_list{
+	background: #f1f1f1;
+	padding: 0;
+	border: 1px solid #ccc;
+}
+.admin_profile .nav-pills .nav-link,
+.student_dash .nav-pills .nav-link{
+	padding: 20px;
+	border-radius: 0;
+}
+.admin_profile .nav-pills .nav-link:hover,
+.student_dash .nav-pills .nav-link:hover{
+	color: #0B788E;
+}
+.admin_profile .nav-pills .nav-link.active, .admin_profile .nav-pills .show > .nav-link,
+.student_dash .nav-pills .nav-link.active, .student_dash .nav-pills .show > .nav-link{
+	color: #fff;
+	background-color: #0B788E;
+}
+
+.admin_profile .tab_data,
+.student_dash .tab_data{
+	border: 1px solid #ccc;
+	border-left: none;
+}
+
+.admin_profile .tab_data .tab-pane,
+.student_dash .tab_data .tab-pane{
+	min-height: 300px;
+}
+.admin_profile .table td,
+.student_dash .table td{
+	border: none !important;
+}
+.admin_profile .card,
+.student_dash .card{
+	height:100%;
+}
+.admin_profile .card-title, .admin_profile .tab_data h5,
+.student_dash .card-title, .student_dash .tab_data h5{
+	margin-top: 20px;
+}
+.admin_profile .card-img-top,
+.student_dash .card-img-top{
+	width: 150px;
+	height: 150px;
+	border-radius: 50% !important;
+}
+
+
+.student-number-text {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    font-size: 7em;
+    color: #6C5DD3;
+    line-height: 2em;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.delete, .edit, .uni_edit {
+	padding: 5px;
+}
+
+.delete {
+	color: #ff6600 !important;
+}
+
+.edit, .uni_edit {
+	color: #155724 !important;
+}
+
+
+
+.add_user, .multidelete, .delete_button {
+	margin-bottom: 10px;
+	margin-left: 10px;
+	min-height: 40px;
+	padding: 5px 20px;
+}
+.multidelete,.delete_button {
+	background: var(--c-primary);
+	color: #fff;
+}
+.add_user, .submit_button, .email_button, .add_emails {
+	background: var(--c-primary) !important;
+	color: #fff !important;
+	border: 1px solid var(--c-primary)  !important;
+}
+.add_user:focus, .multidelete:focus, .delete_button:focus, .submit_button:focus, .email_button:focus, .add_emails:focus {
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5) !important;
+	color:#fff !important;
+}
+.add_user:focus, .submit_button:focus, .email_button:focus, .add_emails:focus {
+	background: var(--c-primary) !important;
+	border-color: var(--c-primary) !important;
+}
+.multidelete:focus, .delete_button:focus {
+	background: var(--c-primary)  !important;
+	border-color: var(--c-primary)  !important;
+}
+.add_user:hover, .submit_button:hover, .email_button:hover, .add_emails:hover {
+	color: var(--c-primary) !important;
+	background: #fff  !important;
+	border-color: 1px solid var(--c-primary) !important;
+}
+.multidelete:hover, .delete_button:hover {
+	color: var(--c-primary) !important;
+	background:  #fff !important;
+	border-color: 1px solid var(--c-primary) !important;
+}
+.multidelete .fas, .delete_button .fas {
+	margin-right: 10px;
+}
+
+.sub_available {
+	color: #006400;
+}
+.sub_navailable {
+	color: #990A2C;
+}
+
+.student_dash .fas {
+	margin-right: 10px;
+}
+#generatezip, #donwloadzip {
+  padding: 10px 20px;
+  text-decoration: none;
+}
+#generatezip:hover, #donwloadzip:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+/* --------------------------------------------------------------------------
+University Selection
+-------------------------------------------------------------------------- */
+.universities-label{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.uni-sel{
+	padding: 10px;
+}
+
+
+
+.multiselect label {
+	width: 50%;
+	padding: 0 5px;
+}
+/*
+.multiselect {
+padding:0 10px;
+}
+#univarsities_select .multiselect input[type=checkbox] { position: absolute;  overflow: hidden;  clip: rect(0 0 0 0);  height:1px;  width:1px;  margin:-1px;  padding:0; border:0; } 
+#univarsities_select .multiselect input[type=checkbox] + label { padding-left:20px; height:15px;  display:inline-block !important; line-height:15px; background-repeat:no-repeat; background-position: 0 0; font-size:15px; vertical-align:middle; cursor:pointer; } 
+#univarsities_select .multiselect input[type=checkbox]:checked + label { background-position: 0 -15px; }
+#univarsities_select .multiselect label { background-image:url(http://csscheckbox.com/checkboxes/lite-x-red.png); }
+*/
+#univarsities_select .subject {
+	background: var(--c-accent);
+	padding: 10px;
+	margin-bottom: 10px;
+	display: block;
+	color: var(--c-black);
+}
+
+
+/* --------------------------------------------------------------------------
+Ajax Modal (Display Image, View Student)
+-------------------------------------------------------------------------- */
+p.status {
+	margin: 10px 0;
+}
+.add_dp {
+	font-size: 40px;
+	position: absolute;
+	left: 55%;
+	top: 120px;
+}
+.add_dp .fa.fa-plus {
+	color: #fff;
+	background: var(--c-primary);
+	padding: 5px 6px;
+	border-radius: 50%;
+}
+
+
+#display_dp {
+	margin-top: 25px;
+}
+
+#update_dp .form-group {
+	margin-bottom: 1rem;
+	width: 100%;
+}
+#update_dp input[type="file"] {
+	min-height: 40px;
+	padding: 7px 10px;
+	overflow: hidden;
+	border: none;
+    padding-left: 0;
+}
+
+.dp-responsive {
+	width: 150px;
+	height: 150px !important;
+	border-radius: 50%;
+	margin: auto;
+	display: block;
+}
+
+.modal-dialog {
+	max-width: 50%;
+	margin: 0;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%) !important;
+}
+#viewStudentModal .modal-dialog {
+	max-width: 50%;
+	margin: 0;
+	left: 50%;
+	top: 10%;
+	transform: translateX(-50%) !important;
+}
+.modal-header .close {
+	color: #0B788E;
+	font-size: 30px;
+	border-color: #0B788E;
+	padding: 5px 10px;
+}
+.modal-dialog .modal-header {
+	padding-left: 0;
+	margin-top: -10px;
+	min-height: 50px;
+	border: none;
+}
+.elementor-field-type-submit, .elementor-field-type-html {
+	margin-top: 15px;
+}
+#viewStudentModal .nav-pills .nav-link {
+	padding: 10px;
+	border-radius: 0px;
+	margin: 10px 0;
+	background: #ddd;
+	color: #333;
+}
+#viewStudentModal .nav-pills .nav-link.active {
+	padding: 10px;
+	border-radius: 0px;
+	margin: 10px 0;
+	background: #0B788E;
+	color: #fff;
+}
+
+/* --------------------------------------------------------------------------
+Table Manager Custom
+-------------------------------------------------------------------------- */
+.tablemanager th.sorterHeader {
+	cursor: pointer;
+}
+.tablemanager th.sorterHeader:after {
+	content: " \f0dc";
+	font-family: "FontAwesome";
+}
+/*Style sort desc*/
+.tablemanager th.sortingDesc:after {
+	content: " \f0dd";
+	font-family: "FontAwesome";
+}
+/*Style sort asc*/
+.tablemanager th.sortingAsc:after {
+	content: " \f0de";
+	font-family: "FontAwesome";
+}
+/*Style disabled*/
+.tablemanager th.disableSort {
+
+}
+#for_numrows {
+	padding: 10px;
+	float: left;
+	padding-left: 0;
+}
+#numrows {
+	padding: 5px;
+	margin-left: 10px;
+	height: 28.5px;
+}
+#for_filter_by {
+	padding: 10px;
+	float: right;
+	padding-right: 0;
+}
+#pagesControllers {
+	display: block;
+	text-align: center;
+}
+#pagesControllers .pagecontroller {
+	box-shadow: none !important;
+	border: 1px solid #ddd;
+}
+#filter_by {
+	padding: 5px;
+	margin-left: 10px;
+	height: 31.5px;
+}
+
+
+
+
+
+.admin_emails .col-md-12 {
+	padding: 0;
+}
+.admin_emails #pagesControllers .pagecontroller {
+	box-shadow: none !important;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background-color: #fff !important;
+	color: #555;
+	width: 40px;
+	height: 40px;
+}
+
+.admin_emails .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+	color: white !important;
+	border: 1px solid #D7D7D7;
+	background-color: #D7D7D7 ;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #D7D7D7 ), color-stop(100%, #111));
+	background: -webkit-linear-gradient(top, #D7D7D7 0%, #D7D7D7 100%);
+	background: -moz-linear-gradient(top, #D7D7D7  0%, #D7D7D7 100%);
+	background: -ms-linear-gradient(top, #D7D7D7 0%, #D7D7D7 100%);
+	background: -o-linear-gradient(top, #D7D7D7 0%, #D7D7D7 100%);
+	background: linear-gradient(to bottom, #D7D7D7  0%, #D7D7D7 100%);
+}
+
+
+.admin_emails div.dataTables_wrapper div.dataTables_length select{
+
+	width: 50%;
+}
+.short_code {
+	background: #ddd;
+	margin-right: 10px;
+	padding: 0 5px;
+	font-size: 0.8em;
+}
+.mail-body .attachments a {
+	padding: 5px 10px;
+	background: #444;
+	margin-right: 10px;
+	color: #fff;
+}
+.email_system, .email_filter {
+	background: #FAFAFA;
+	padding: 15px;
+}
+.email_system, .email_filter {
+	margin-bottom: 30px;
+}
+.email_system .nav-pills {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+.email_system .nav-pills .nav-link {
+	background-color: inherit;
+	border: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	color: #990A2C;
+	border-radius:0;
+}
+.email_system .nav-pills .nav-link:hover,.email_system .nav-pills .nav-link.active {
+	background-color: #ddd;
+}
+.email_system #compose,.email_system #sent {
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+	padding-top: 15px;
+}
+.email_system .fas {
+	margin-left: 10px;
+}
+#viewEmailModal .mail-body {
+	padding: 30px 0px;
+}
+#viewEmailModal .mail_item {
+	width: 100%;
+	margin-bottom: 15px;
+}
+#viewEmailModal .message {
+	height: 300px;
+	overflow-y: scroll;
+}
+
+.modal .form-row label {
+	width: 100% !important;
+}
+
+/*-------------------------------------------------------------------------------
+application Section
+-------------------------------------------------------------------------------*/
+
+
+.student_contact-form-wrapper{
+	background: #fff;
+	 box-shadow: 1px 1px 5px rgba(0,0,0,0.2); 
+	padding: 2em;
+	margin-top: 3em;
+	
+}
+.student_contact-form{
+	width: 100%;
+}
+
+/*-------------------------------------------------------------------------------
+contact Section
+-------------------------------------------------------------------------------*/
+
+/* .student_contact{
+	background: #fff;
+	 box-shadow: 1px 1px 5px rgba(0,0,0,0.2); 
+	padding: 2em;
+	margin-top: 3em;
+} */
+
+
+
+.spinner-wrap{
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	z-index: 9990;
+position: fixed;
+}
+
+.spinner {
+  color: #ff6600;
+  font-size: 90px;
+  text-indent: -9999em;
+  overflow: hidden;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: 72px auto;
+  z-index: 9999;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: spin 1.7s infinite ease, ru 1.7s infinite ease;
+  animation: spin 1.7s infinite ease, ru 1.7s infinite ease;
+}
+@-webkit-keyframes spin {
+  0% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+  }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+  }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+  }
+  100% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+}
+@keyframes spin {
+  0% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+  }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+  }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+  }
+  100% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+}
+@-webkit-keyframes ru {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes ru {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.logostu{
+	margin-top: 50px !important;
+	margin-left: 30px !important;
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+	and (max-device-width : 667px) {
+		.woocommerce-account .woocommerce-MyAccount-navigation ul li a{
+			font-size: 12px !important;
+			
+			
+		}
+		.woocommerce-account .woocommerce-MyAccount-navigation ul {
+			flex-direction: column !important;
+		}
+	
+}

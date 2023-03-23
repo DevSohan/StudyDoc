@@ -1,0 +1,380 @@
+@charset "utf-8";
+
+/* 
+Theme Name: StudyDoc
+Theme URI: https://studydoc.de
+Description: Wordpress-Theme for the StudyDoc
+Version: 1.0.0
+Author: Mohammad Sohanur Rahman, Singh Mali, Abdur Rahman
+Author URI: https://studydoc.de
+Text Domain: study-doc
+Domain Path: /languages
+
+WordPress Theme
+*/
+
+/* --------------------------------------------------------------------------
+RESET
+-------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------
+ALLGEMEINE DEFINITIONEN
+-------------------------------------------------------------------------- */
+
+
+body {
+	background: #fff;
+	position: relative;
+	font: 16px font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 22;
+	color: #444;
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+	color: #000;
+	line-height:1.5;
+	margin:0;
+}
+
+h1 {
+	font-size: 26px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 17px;
+}
+h6 {
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: #ff6600;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+div.table { 
+	display: table; 
+	border-collapse: collapse;
+	box-sizing: border-box; 
+}
+
+
+.form-row {
+	margin: 0 0 10px;
+}
+
+
+.personal_data .nav, .personal_data .tab-content {
+	width: 100%;
+}
+
+[data-elementor-type="wp-page"] {
+	min-height: 80vh;
+}
+
+/* --------------------------------------------------------------------------
+Password Strength Check
+-------------------------------------------------------------------------- */
+#resetform #new_password,
+form[name="Sign Up"] .elementor-field-type-password {
+	position: relative;
+}
+.pswd_info {
+	position: absolute;
+	top: -65%;
+	right: 0px;
+	width: 250px;
+	padding: 15px;
+	background: #fefefe;
+	font-size: .875em;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px #ccc;
+	border: 1px solid #ddd;display:none;z-index:1;
+}
+#resetform .pswd_info{
+	top:0
+}
+.pswd_info h4 {
+	margin:0 0 10px 0;
+	padding:0;
+	font-weight:normal;font-size:14px;
+}
+.pswd_info::before {
+	content: "";
+	position: absolute;
+	top: 42%;
+	left: -10px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid #ddd;
+}
+.pswd_info ul {
+	list-style: none;
+	padding-left: 0;
+}
+.pswd_info i.fas {
+	margin-right: 10px;
+}
+.pswd_info .fa-check{color: #155724;}
+.pswd_info .fa-times{color: #721c24;}
+.pswd_info ul li{font-size:12px}
+.account-page-header {
+	background: #990A2C;
+	color: #fff;margin-bottom: 20px;
+
+}
+.pswd_info .invalid {
+	color:#721c24;
+}
+.pswd_info .valid {
+	color:#155724;
+}
+
+
+.register_click {
+	margin-right: 10px;
+}
+#profile_btns .elementor-widget-wrap {
+	justify-content: flex-end;
+}
+#login_btn, #profile_btn, #logout_btn {
+	width: 25%;
+	display: none;
+}
+.register_click,.lost_click,.login_click {
+	padding: 10px;
+	border-radius: 5px;
+}
+.reg_area {
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+/* --------------------------------------------------------------------------
+Preloader
+-------------------------------------------------------------------------- */
+
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background:#0d2333;
+}
+
+#loader {
+	display: block;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 150px;
+	height: 150px;
+	margin: -75px 0 0 -75px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #9370db;
+	-webkit-animation: spin .7s linear infinite;
+	animation: spin .7s linear infinite;
+}
+
+#loader:before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #ba55d3;
+	-webkit-animation: spin .5s linear infinite;
+	animation: spin .5s linear infinite;
+}
+
+#loader:after {
+	content: "";
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #ff00ff;
+	-webkit-animation: spin .1s linear infinite;
+	animation: spin .1s linear infinite;
+} 
+
+@-webkit-keyframes spin { 
+	0% {
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+.preloader.fade {
+	opacity: 0;
+}
+.notification .fas::before {
+	font-family: FontAwesome;
+}
+.notification .fas {
+	margin-right: 20px;
+}
+.alert {
+	display: block;
+	width: 100%;
+}
+
+.stu{
+	width:100%;
+	margin-top: 20px;
+
+}
+
+
+#viewTemplateModal .template_content_area{
+	height: 400px;
+	overflow-y: scroll;
+}
+
+.mobtogg{
+	margin-left: 20px !important;
+	display: none !important;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+	and (max-device-width : 667px) {
+		.woocommerce-account .woocommerce-MyAccount-navigation ul li a{
+			font-size: 12px !important;
+			
+			
+		}
+		.woocommerce-account .woocommerce-MyAccount-navigation ul {
+			flex-direction: column !important;
+			position: absolute !important;
+			margin-left: -330px !important;
+			z-index: 2 !important;
+			background-color: #fff !important;
+			width: 100% !important;
+		}
+		
+.mobtogg{
+	position: absolute !important;
+	margin-left: 250px !important;
+	display: block !important;
+	z-index: 3 !important;
+	margin-top: -70px !important;
+	
+}
+		
+		
+		
+
+		
+
+}
+@media only screen 
+and (min-device-width : 414px) 
+	and (max-device-width : 736px) {
+			.woocommerce-account .woocommerce-MyAccount-navigation ul {
+			flex-direction: column !important;
+			position: absolute !important;
+			margin-left: -369px !important;
+			z-index: 2 !important;
+			background-color: #fff !important;
+			width: 100% !important;
+		}
+		
+}
+@media only screen 
+and (min-device-width : 768px) 
+	and (max-device-width : 1024px) {
+		
+	.woocommerce-account .woocommerce-MyAccount-navigation ul li a{
+			font-size: 12px !important;
+		
+			}	
+		.woocommerce-account .woocommerce-MyAccount-navigation ul {
+			margin-left: 0px !important;	
+			margin-right: -60px !important;
+		background-color: rgba(0,0,0,0) !important;}
+}
+
+@media only screen 
+and (min-device-width : 360px) 
+	and (max-device-width : 640px) {
+		.mobtogg{
+	position: absolute !important;
+	margin-left: 280px !important;
+	display: block !important;
+	z-index: 3 !important;
+	margin-top: -70px !important;
+	
+}
+	.woocommerce-account .woocommerce-MyAccount-navigation ul li a{
+			font-size: 12px !important;
+			
+			
+		}
+		.woocommerce-account .woocommerce-MyAccount-navigation ul {
+			flex-direction: column !important;
+			position: absolute !important;
+			margin-left: -315px !important;
+			z-index: 2 !important;
+			background-color: #fff !important;
+			width: 100% !important;
+		}	
+		
+		
+}
